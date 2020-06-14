@@ -9,3 +9,6 @@ The size of the training set prior to the samplers is also variied to test the i
 ## Results
 
 In this case of binarized groups of MNIST classes, the lift appears to depend on the size of the training set before sampling. While the lift is small for originally large training sets before sampling, the lift increases with decreasing size of the training set before sampling. 
+
+## Note
+sklearn == 0.21.3 required for imblearn 0.5.0 to work. It's easiest to create a new conda env from scratch with sklearn and imblearn.
